@@ -1,0 +1,253 @@
+/*========> Container <========*/
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0rem 0.5rem;
+    }
+    
+}
+/*========> Navbar <========*/
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {
+    #home {
+        height: 93vh;
+    }
+    .fa-bars {
+        display: inline-block;
+    }
+    .nav__links {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    #home {
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+    #home .container {
+        flex-direction: column-reverse;
+    }
+    .home__img {
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    .home__discription {
+        width: 95%;
+        text-align: center;
+    }
+    .home__button {
+        justify-content: center;
+    }
+    .home__button button {
+        border-radius: 20px;
+
+    }
+    .home__discription h2 {
+        font-size: 48px;
+    }
+    .home__discription p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: fit-content;
+    }
+    .darkmode {
+        width: fit-content;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 480px) {}
+
+/*========> Home <========*/
+
+@media screen and (min-width: 1400px) {
+    .home__img {
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
+
+/*========> Chefs <========*/
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .chefs__card {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chefs__card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {}
+
+/*========> Gallery <========*/
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    .gallery__img {
+        flex-direction: column;
+    }
+    .gallery__card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {}
+
+/*========> Content <========*/
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .info__card {
+        width: 48%;
+        height: 132px;
+    }
+    .name__email {
+        gap: 0;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info__card {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 480px) {}
+
+/*========> Footer <========*/
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {
+    footer .container {
+        flex-wrap: wrap;
+    }
+    .logo__media {
+        width: 48%;
+    }
+    .footer__info {
+        width: 47%;
+    }
+    .subscribe {
+        width: 100%;
+        order: 2;
+    }
+    .subscribe .form input{
+        width: 85%;
+    }
+    .subscribe .form button {
+        width: 12%;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .subscribe .form button {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo__media {
+        width: 100%;
+    }
+    .footer__info {
+        width: 100%;
+    }
+    .subscribe {
+        width: 100%;
+        order: 0;
+    }
+    .subscribe .form button {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .subscribe .form {
+        flex-wrap: wrap;
+    }
+    .subscribe .form input{
+        width: 100%;
+    }
+    .subscribe .form button {
+        width: 100%;
+    }
+}

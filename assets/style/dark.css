@@ -1,0 +1,46 @@
+.toggleLight {
+    display: none;
+    color: white;
+    width: 45px;
+}
+
+.toggleDark {
+    width: 45px;
+}
+
+#icon {
+    visibility: hidden;
+}
+
+#icon:checked~.toggleDark {
+    display: none;
+}
+
+#icon:checked~.toggleLight {
+    display: inline-block;
+}
+
+body:has(input[name="dark"]:checked) {
+    --nav-white: rgb(23, 23, 23);
+    --color-primary: rgb(193, 126, 31);
+    --color-secondary: rgb(255, 255, 255);
+    --color-tertiary: rgb(159, 159, 159);
+    --hover-color: rgb(215, 140, 35);
+    --black--color: rgb(255, 255, 255);
+    --bgColor-white: rgb(0, 0, 0);
+    --bgColor-primary: rgb(38, 38, 38);
+    --bgColor-f5f5: #0D0D0D;
+    --pharagrap-color: rgb(255, 255, 255);
+    --pharagrap-rgba-color: rgb(159, 159, 159);
+    --border-color: #e8e3e3;
+    --bgColor-section: rgb(33, 33, 33);
+    --card-color: rgb(23, 23, 23);
+    
+}
+body:has(input[name="dark"]:checked) svg stop {
+    stop-color: rgb(23, 23, 23);
+}
+body:has(input[name="dark"]:checked) ::selection {
+    background-color: rgb(193, 126, 31);
+    color: black;
+}
